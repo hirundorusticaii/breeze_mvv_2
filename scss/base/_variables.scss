@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap');
+
+// ブレイクポイントを指定
+$pc: 1280px;
+$tab: 640px;
+$sp: 639px;
+
+// フォントやフォントサイズ
+$fontRampartone: "Rampart One", sans-serif;
+$fontNotosans: "Noto Sans JP", sans-serif;
+$fontNotoserif:  "Noto Serif JP", serif;
+
+// カラーパターン
+$colorFont: #2d2e29;
+$colorFontdark: #20211f;
+$colorBreezeblue: #64b9e6;
+$colorBreezelightblue: #d6eff9;
+$colorBreezepink: #ff4568;
+
+// 余白
+$mgLarge: 150px;
+$mgSemiLarge: 140px;
+$mgMedium: 100px;
+$mgSmall: 60px;
+$mgExtraSmall: 50px

@@ -1,0 +1,108 @@
+@charset "utf-8";
+@import 'base/mixin';
+@import 'base/variables';
+
+body{
+    width: 100%;
+    box-sizing: border-box;
+    font-family: $fontNotosans;
+
+    .header{
+        margin-top: 60px;
+        padding: 10px;
+        position: relative;
+
+        &::after{
+            content: '';
+            position: absolute;
+            top: -44px;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+            box-sizing: content-box;
+            border: 4px solid $colorBreezeblue;
+            border-radius: 50%;
+            background-color: $colorBreezeblue;
+            margin: 0 auto;
+        }
+
+        &__img{
+            position: absolute;
+            z-index: 999;
+            top: -42px;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            width: 100px;
+
+            img{
+                width: 100%;
+            }
+        }
+        
+        &__title{
+            width: 100%;
+            text-align: center;
+            line-height: 3;
+            font-family: $fontRampartone;
+            font-size: 3rem;
+            color: $colorBreezeblue;
+            border-top: 1rem solid;
+            border-bottom: 1rem solid;
+        }
+
+    }
+
+
+    .main{
+        padding: 10px;
+
+        section{
+            margin-bottom: $mgMedium;
+
+            &:first-child{
+                margin-top: $mgSmall;
+            }
+
+            .title{
+                position: relative;
+                font-family: $fontRampartone;
+                color: $colorFontdark;
+                width:fit-content;
+                margin: 0 auto;
+                font-size: 2rem;
+                
+                // &::after{
+                //     content: '';
+                //     position: absolute;
+                //     top: 0;
+                //     bottom: 0;
+                //     margin: auto 0;
+                //     left: -30px;
+                //     width: 20px;
+                //     height: 20px;
+                //     background-color: $colorBreezelightblue;
+                // }
+            }
+
+            .paragraph{
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .footer{
+        padding: 10px;
+        margin: $mgSmall 0;
+
+        small{
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+}
