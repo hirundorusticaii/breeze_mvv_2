@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
 body {
   width: 100%;
   box-sizing: border-box;
@@ -53,6 +55,9 @@ body .header__title {
 }
 body .main {
   padding: 10px;
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat-y;
+  color: azure;
 }
 body .main section {
   margin-bottom: 100px;
@@ -97,6 +102,8 @@ body .main section .visions {
 }
 body .main section .paragraph {
   font-size: 24px;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2rem;
 }
 body .main section .identity {
   background: red;

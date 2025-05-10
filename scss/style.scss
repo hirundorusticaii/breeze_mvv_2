@@ -58,6 +58,9 @@ body{
 
     .main{
         padding: 10px;
+        background-image: url(../img/background.jpg);
+        background-repeat: repeat-y;
+        color: azure;
 
         section{
             margin-bottom: $mgMedium;
@@ -108,6 +111,8 @@ body{
 
             .paragraph{
                 font-size: 24px;
+                font-family: $fontZenKaku;
+                font-size: 2rem;
             }
 
             .identity{
