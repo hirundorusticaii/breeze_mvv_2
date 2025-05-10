@@ -58,6 +58,9 @@ body{
 
     .main{
         padding: 10px;
+        background-image: url(../img/background.jpg);
+        background-repeat: repeat-y;
+        color: azure;
 
         section{
             margin-bottom: $mgMedium;
@@ -68,8 +71,8 @@ body{
 
             .title{
                 position: relative;
-                font-family: $fontRampartone;
-                color: $colorFontdark;
+                font-family: $fontReggaeOne;
+                color: $colorFontlight;
                 width:fit-content;
                 margin: 0 auto;
                 font-size: 2rem;
@@ -88,6 +91,7 @@ body{
             }
 
             .paragraph{
+                font-family: $fontZenKaku;
                 font-size: 2rem;
             }
 
