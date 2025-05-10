@@ -64,12 +64,39 @@ body .main section .title {
   position: relative;
   font-family: "Rampart One", sans-serif;
   color: #20211f;
-  width: fit-content;
+  width: 300px;
+  text-align: center;
   margin: 0 auto;
   font-size: 2rem;
 }
+body .main section .title::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  left: 60px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #d6eff9;
+}
+body .main section .contents {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+body .main section .enjoy {
+  font-size: 32px;
+  text-align: center;
+}
+body .main section .visions {
+  font-size: 32px;
+  line-height: 3;
+}
 body .main section .paragraph {
-  font-size: 2rem;
+  font-size: 24px;
 }
 body .main section .identity {
   background: red;
